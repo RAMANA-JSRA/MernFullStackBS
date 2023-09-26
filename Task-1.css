@@ -15,7 +15,6 @@
 
 .Home {
   padding: auto;
-  color: black;
   cursor: pointer;
   text-align: end;
   margin-left: auto;
@@ -23,14 +22,12 @@
 }
 .A2 {
   display: inline-flex;
-  position: relative;
 }
 
 .A3 {
   text-align: end;
   background-color: maroon;
-  display: inline-flex;
   float: inline-end;
-  height: 10000px;
-  width: 400px;
+  height: 1000px;
+  width: 200px;
 }
