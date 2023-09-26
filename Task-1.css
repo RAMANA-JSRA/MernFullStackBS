@@ -1,0 +1,36 @@
+.A1 {
+  text-align: center;
+  background-color: aqua;
+  padding: 0.01%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  gap: 10%;
+  padding: 10px;
+  top: 0;
+  background-color: darkgrey;
+  color: white;
+}
+
+.Home {
+  padding: auto;
+  color: black;
+  cursor: pointer;
+  text-align: end;
+  margin-left: auto;
+  color: white;
+}
+.A2 {
+  display: inline-flex;
+  position: relative;
+}
+
+.A3 {
+  text-align: end;
+  background-color: maroon;
+  display: inline-flex;
+  float: inline-end;
+  height: 10000px;
+  width: 400px;
+}
