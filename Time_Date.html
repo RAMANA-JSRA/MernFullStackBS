@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time And Date</title>
+    <style>
+      #dateContainer {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      #dateContainer1 {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="showDate">Show Date</button>
+    <div id="dateContainer1"></div>
+<br>
+    <button id="showTime">Show Time</button>
+    <div id="dateContainer"></div>
+
+    <script>
+      document
+        .getElementById("showTime")
+        .addEventListener("click", function () {
+          var currentDate = new Date();
+          var dateString = currentDate.toDateString();
+          var timeString = currentDate.toTimeString();
+          document.getElementById("dateContainer").innerHTML =
+            dateString + " " + timeString;
+        });
+      document
+        .getElementById("showDate")
+        .addEventListener("click", function () {
+          var currentDate1 = new Date();
+          var dateString = currentDate1.toDateString();
+          document.getElementById("dateContainer1").innerHTML = dateString;
+        });
+    </script>
+  </body>
+</html>
